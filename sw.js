@@ -1,9 +1,15 @@
 const CACHE_NAME = 'lifelink-v1.0.0';
 const ASSETS_TO_CACHE = [
     '/',
-    '/css/style.css',
-    '/js/app.js',
+    '/index.html',
+    '/style.css',
+    '/app.js',
     '/manifest.json',
+    '/icon-72x72.png',
+    '/icon-96x96.png',
+    '/icon-128x128.png',
+    '/icon-192x192.png',
+    '/icon-512x512.png',
     'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css',
     'https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js'
 ];
